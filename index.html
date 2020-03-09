@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Dev Challange 9</title>
+
+  <!-- Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Dancing+Script|Playfair+Display|Raleway:300,400,500&display=swap&subset=latin-ext"
+    rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="owl/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="owl/assets/owl.theme.default.min.css">
+
+  <link rel="stylesheet" href="style.min.css">
+</head>
+
+<body>
+  <!-- Slider -->
+  <header class="slider">
+    <div class="container">
+      <div class="logo">
+        <p class="logo__name">MariaAnna</p>
+        <span class="logo__profession">photography</span>
+      </div>
+      <h1 class="slider__slogan">See the world through my lens</h1>
+      <p class="slider__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus a
+        molestiae
+        corporis neque culpa?</p>
+    </div>
+  </header>
+
+  <!-- Desktop Nav -->
+  <div class="container container--nav">
+    <nav class="desktop-nav">
+      <div class="logo logo--desktop">
+        <a href="" class="logo__name logo__name--desktop">MariaAnna</a>
+      </div>
+      <ul class="desktop-nav__list">
+        <li class="desktop-nav__item">
+          <a href="" class="desktop-nav__link" data-link="about">About Me</a>
+        </li>
+        <li class="desktop-nav__item">
+          <a href="" class="desktop-nav__link" data-link="works">Works</a>
+        </li>
+        <li class="desktop-nav__item">
+          <a href="" class="desktop-nav__link" data-link="socials">Follow Me</a>
+        </li>
+        <li class="desktop-nav__item">
+          <a href="" class="desktop-nav__link" data-link="contact">Contact Me</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Mobile Nav -->
+  <nav class="nav-mobile">
+    <div class="hamburger">
+      <span class="hamburger__line hamburger__line--top"></span>
+      <span class="hamburger__line hamburger__line--middle"></span>
+      <span class="hamburger__line hamburger__line--bottom"></span>
+    </div>
+    <ul class="nav-mobile__list">
+      <li class="nav-mobile__item">
+        <a href="" class="nav-mobile__link">
+          <span class="fa fa-camera" data-link="about"></span>
+        </a>
+      </li>
+      <li class="nav-mobile__item">
+        <a href="" class="nav-mobile__link">
+          <span class="fa fa-image" data-link="works"></span>
+        </a>
+      </li>
+      <li class="nav-mobile__item">
+        <a href="" class="nav-mobile__link">
+          <span class="fa fa-thumbs-up" data-link="socials"></span>
+        </a>
+      </li>
+      <li class="nav-mobile__item">
+        <a href="" class="nav-mobile__link">
+          <span class="fa fa-envelope-open" data-link="contact"></span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- About me -->
+  <div class="container">
+    <section class="about" data-section="about">
+      <h2 class="heading">A Little Bit About Me</h2>
+      <p class="about__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel debitis odit
+        rem repellendus iusto est porro harum, perspiciatis, distinctio vitae quisquam saepe veniam sed? Veniam ipsa
+        magnam quisquam pariatur.</p>
+    </section>
+  </div>
+
+  <!-- Works -->
+  <div class="container">
+    <section class="works" data-section="works">
+      <h2 class="heading">Works</h2>
+      <div class="works__photos">
+        <div class="works__item works__item--nature">
+          <div class="works__description-box">
+            <p class="works__name">Nature</p>
+            <p class="works__depiction">beautifull nature</p>
+          </div>
+        </div>
+        <div class="works__item works__item--people">
+          <div class="works__description-box">
+            <p class="works__name">People</p>
+            <p class="works__depiction">beautifull people</p>
+          </div>
+        </div>
+        <div class="works__item works__item--wedding">
+          <div class="works__description-box">
+            <p class="works__name">Wedding</p>
+            <p class="works__depiction">beautifull wedding</p>
+          </div>
+        </div>
+        <div class="works__item works__item--urban">
+          <div class="works__description-box">
+            <p class="works__name">Urban</p>
+            <p class="works__depiction">beautifull urban</p>
+          </div>
+        </div>
+        <div class="works__item works__item--architecture">
+          <div class="works__description-box works__description-box--fit-width">
+            <p class="works__name">Architecture</p>
+            <p class="works__depiction">beautifull architecture</p>
+          </div>
+        </div>
+        <div class="works__item works__item--animals">
+          <div class="works__description-box">
+            <p class="works__name">Animals</p>
+            <p class="works__depiction">beautifull animals</p>
+          </div>
+        </div>
+      </div>
+      <button class="btn">Load More</button>
+    </section>
+  </div>
+
+  <!-- Tesitmonials -->
+  <div class="container">
+    <section class="testimonials">
+      <h2 class="heading heading--testimonials">See the world through my lens</h2>
+      <div class="owl-carousel owl-theme owl-loaded">
+        <div class="owl-stage-outer">
+          <div class="owl-stage">
+
+            <div class="owl-item">
+              <article class="testimonials__slide testimonials__slide--third">
+                <p class="testimonials__saying">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, nisi!
+                  At
+                  amet
+                  ullam dolor voluptas!</p>
+                <span class="testimonials__author">John Doe CEO</span>
+              </article>
+            </div>
+            <div class="owl-item">
+              <article class="testimonials__slide testimonials__slide--third">
+                <p class="testimonials__saying">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, nisi!
+                  At
+                  amet
+                  ullam dolor voluptas!</p>
+                <span class="testimonials__author">Maria Weekend BOSS</span>
+              </article>
+            </div>
+            <div class="owl-item">
+              <article class="testimonials__slide testimonials__slide--third">
+                <p class="testimonials__saying">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, nisi!
+                  At
+                  amet
+                  ullam dolor voluptas!</p>
+                <span class="testimonials__author">Mark Billy DESINGER</span>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Video -->
+  <div class="container">
+    <section class="video">
+      <iframe width="560" height="349" src="https://www.youtube.com/embed/ineZXLbL7s8" frameborder="0" allowfullscreen
+        class="video__link"></iframe>
+    </section>
+  </div>
+
+  <!-- Follow Me -->
+  <div class="container">
+    <section class="icons" data-section="socials">
+      <h2 class="heading">Follow Me</h2>
+      <ul class="icons__box">
+        <li class="icons__item">
+          <a href="##" class="icons__link">
+            <i class="fa fa-pinterest"></i>
+          </a>
+        </li>
+        <li class="icons__item">
+          <a href="##" class="icons__link">
+            <i class="fa fa-instagram"></i>
+          </a>
+        </li>
+        <li class="icons__item">
+          <a href="##" class="icons__link">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </li>
+        <li class="icons__item">
+          <a href="##" class="icons__link">
+            <i class="fa fa-google"></i>
+          </a>
+        </li>
+        <li class="icons__item">
+          <a href="##" class="icons__link">
+            <i class="fa fa-tumblr"></i>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </div>
+
+  <!-- Contact Me -->
+  <section class="contact" data-section="contact">
+    <div class="container container--contact">
+      <h2 class="heading">Contact Me</h2>
+      <p class="contact__description">Lorem ipsum dolor sit amet consectetur.</p>
+      <form action="" class="contact__form">
+        <input type="text" name="name" class="contact__input" placeholder="Your Name">
+        <input type="email" name="email" class="contact__input" placeholder="Your E-mail address">
+        <textarea name="message" rows="10" class="contact__input contact__input--textarea"
+          placeholder="Your Message"></textarea>
+        <span class="contact__require">All fields marked with an asterisk are required</span>
+        <button type="submit" class="btn btn--form">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer   -->
+  <footer class="footer">
+    <span class="fa fa-chevron-up footer__arrow-up"></span>
+    <div class="logo logo--footer">
+      <p class="logo__name logo__name--footer">MariaAnna</p>
+      <span class="logo__profession logo__profession--footer">photography</span>
+    </div>
+    <span class="footer__copy">&copy; Copyright 2020</span>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <!-- Owl Carousel -->
+  <script src="owl/owl.carousel.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".owl-carousel").owlCarousel({
+        autoplay: true,
+        loop: true,
+        items: 1,
+
+      });
+    });
+  </script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
